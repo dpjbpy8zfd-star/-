@@ -177,6 +177,7 @@ while run:
 
 
         #проигрыш
+        
         if life == 0 or lost >= max_lost:
             finish = True #проиграли, ставим фон и больше не управляем спрайтами.
             window.blit(lose, (200, 200))
